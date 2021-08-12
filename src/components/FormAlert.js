@@ -8,7 +8,7 @@ const FormAlert = () => (
         <FloatingLabel label="Tienda de procedencia" className="formAlert">
             <Form.Control type="text" placeholder="Tienda" />
         </FloatingLabel>
-        <Row className="g-2" className="formAlert">
+        <Row className="g-2 formAlert">
             <Col md="7">
                 <FloatingLabel controlId="floatingSelectGrid" label="Empresa de envío">
                     <Form.Select aria-label="Floating label select example">
@@ -64,6 +64,9 @@ const FormAlert = () => (
             </div>
         ))}
         </Form>
+        <Card.Text>
+            *El tipo de envío lo podrás modificar por medio de una Solicitud especial desde tu almacén.
+        </Card.Text>
         <Button variant="primary" type="submit" className="button">
             Registar pre-alerta
         </Button>

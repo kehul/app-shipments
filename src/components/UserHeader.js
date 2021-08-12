@@ -1,7 +1,9 @@
-import React from 'react';
+import React, { Component } from 'react';
 import Cookies from 'universal-cookie';
-import { Navbar, Container, Nav, NavDropdown } from 'react-bootstrap';
-import { Component } from 'react';
+import { Navbar, Container, Nav, NavDropdown, Col } from 'react-bootstrap';
+import Example from '../components/menuUser';
+import '../assets/styles/UserHeader.scss';
+import NavbarCollapse from 'react-bootstrap/esm/NavbarCollapse';
 
 const cookies = new Cookies();
 
@@ -22,22 +24,28 @@ class UserHeader extends Component {
 
     render() {
         return (
-            <Navbar bg="light" expand="lg">
+            <Navbar expand="lg" className="userHero">
                 <Container>
-                    <Navbar.Brand href="#home">React-Bootstrap</Navbar.Brand>
-                    <Navbar.Toggle aria-controls="basic-navbar-nav" />
-                    <Navbar.Collapse id="basic-navbar-nav">
-                    <Nav className="me-auto">
-                        <Nav.Link href="#home">Home</Nav.Link>
-                        <Nav.Link href="#link">Link</Nav.Link>
-                        <NavDropdown title="User" id="basic-nav-dropdown">
-                            <NavDropdown.Item href="#action/3.1">Mi cuenta</NavDropdown.Item>
-                            <NavDropdown.Item href="#action/3.2">Ayuda</NavDropdown.Item>
-                            <NavDropdown.Divider />
-                            <NavDropdown.Item href="#action/3.3" onClick={()=>this.logout()}>Cerrar sesión</NavDropdown.Item>
-                        </NavDropdown>
-                    </Nav>
-                    </Navbar.Collapse>
+                    <Navbar.Toggle aria-controls="responsive-navbar-nav" />
+                    <Col sm={5}>
+                        <NavbarCollapse>
+                            <Example />
+                        </NavbarCollapse>
+                    </Col>
+                    <Col sm={5}>
+                        <Navbar.Collapse id="responsive-navbar-nav" className="justify-content-end">
+                        <Nav className="mr-auto navUser">
+                            <Nav.Link href="#home">Search</Nav.Link>
+                            <Nav.Link href="#link">235.4789 pts</Nav.Link>
+                            <NavDropdown title="Usuario" id="basic-nav-dropdown">
+                                <NavDropdown.Item href="#action/3.1">Mi cuenta</NavDropdown.Item>
+                                <NavDropdown.Item href="#action/3.2">Ayuda</NavDropdown.Item>
+                                <NavDropdown.Divider />
+                                <NavDropdown.Item href="#action/3.3" onClick={()=>this.logout()}>Cerrar sesión</NavDropdown.Item>
+                            </NavDropdown>
+                        </Nav>
+                        </Navbar.Collapse>
+                    </Col>
                 </Container>
             </Navbar>
         );

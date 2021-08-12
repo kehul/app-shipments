@@ -6,7 +6,7 @@
         "Tipo_Envio" : "Aereo",
         "Fecha": "2021-08-17",
         "Discripcion": "Lenovo Legion 5 Gaming Laptop, pantalla IPS FHD (1920 x 1080), procesador AMD Ryzen 7 4800H, 16 GB",
-        "Tienda_img": "123"
+        "Tienda_img": "../assets/static/amazon.svg"
       },
       {
         "id_envio": "2",
@@ -14,7 +14,7 @@
         "Tipo_Envio" : "Aereo",
         "Fecha": "2021-08-17",
         "Discripcion": "Lenovo Legion 5 Gaming Laptop, pantalla IPS FHD (1920 x 1080), procesador AMD Ryzen 7 4800H, 16 GB",
-        "Tienda_img": "123"
+        "Tienda_img": "../assets/static/ebay.svg"
       },
       {
         "id_envio": "3",
@@ -22,7 +22,7 @@
         "Tipo_Envio" : "Maritimo",
         "Fecha": "2021-08-17",
         "Discripcion": "Lenovo Legion 5 Gaming Laptop, pantalla IPS FHD (1920 x 1080), procesador AMD Ryzen 7 4800H, 16 GB",
-        "Tienda_img": "123"
+        "Tienda_img": "../assets/static/mrw.svg"
       },
       {
         "id_envio": "4",
@@ -30,7 +30,7 @@
         "Tipo_Envio" : "Aereo",
         "Fecha": "2021-08-11",
         "Discripcion": "Lenovo Legion 5 Gaming Laptop, pantalla IPS FHD (1920 x 1080), procesador AMD Ryzen 7 4800H, 16 GB",
-        "Tienda_img": "123"
+        "Tienda_img": "../assets/static/amazon.svg"
       },
       {
         "id_envio": "5",
@@ -38,7 +38,7 @@
         "Tipo_Envio" : "Maritimo",
         "Fecha": "2021-08-12",
         "Discripcion": "Lenovo Legion 5 Gaming Laptop, pantalla IPS FHD (1920 x 1080), procesador AMD Ryzen 7 4800H, 16 GB",
-        "Tienda_img": "123"
+        "Tienda_img": "../assets/static/ebay.svg"
       },
       {
         "id_envio": "6",
@@ -46,7 +46,7 @@
         "Tipo_Envio" : "Aereo",
         "Fecha": "2021-08-10",
         "Discripcion": "Lenovo Legion 5 Gaming Laptop, pantalla IPS FHD (1920 x 1080), procesador AMD Ryzen 7 4800H, 16 GB",
-        "Tienda_img": "123"
+        "Tienda_img": "../assets/static/mrw.svg"
       },
       {
         "id_envio": "7",
@@ -54,7 +54,7 @@
         "Tipo_Envio" : "Maritimo",
         "Fecha": "2021-08-01",
         "Discripcion": "Lenovo Legion 5 Gaming Laptop, pantalla IPS FHD (1920 x 1080), procesador AMD Ryzen 7 4800H, 16 GB",
-        "Tienda_img": "123"
+        "Tienda_img": "../assets/static/amazon.svg"
       },
       {
         "id_envio": "8",
@@ -62,7 +62,7 @@
         "Tipo_Envio" : "Aereo",
         "Fecha": "2021-08-03",
         "Discripcion": "developer2@otp.com.co",
-        "Tienda_img": "123"
+        "Tienda_img": "../assets/static/ebay.svg"
       }
     ]
 }

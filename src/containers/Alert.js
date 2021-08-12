@@ -6,17 +6,21 @@ import CardAlert from '../components/CardAlert';
 import '../assets/styles/Alert.scss';
 
 const Login = () => (
-    <Container className="contentAlert">
-        <Row>
-            <Col xs={5}>
-                <FormAlert />
-            </Col>
-            <Col xs={7}>
-                <CardAlert />
-                <FormCardAlert />
-            </Col>
-        </Row>
-    </Container>
+    <div className="bg-content">
+        <Container className="contentAlert">
+            <Row>
+                <Col xs={12} md={3}>
+                </Col>
+                <Col xs={12} md={4}>
+                    <FormAlert />
+                </Col>
+                <Col xs={12} md={5}>
+                    <CardAlert />
+                    <FormCardAlert />
+                </Col>
+            </Row>
+        </Container>
+    </div>
 );
 
 export default Login;

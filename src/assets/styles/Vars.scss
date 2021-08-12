@@ -20,3 +20,7 @@ $background: #f9f9f9;
     border: 1px solid $colorOne;
     color: $colorOne;
 }
+
+.contendPages {
+    min-height: calc(100vh - 240px);
+}
