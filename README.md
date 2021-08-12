@@ -44,19 +44,19 @@ Instead, it will copy all the configuration files and the transitive dependencie
 
 You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
 
-##Instruciones para utilizar correctamente el proyecto
+## Instrucciones para utilizar correctamente el proyecto
 
 ### `yarn start`
 
-Ejecuta la aplicación
+Ejecuta la aplicación.
 Abrir: [http://localhost:3000](http://localhost:3000)
 
 ### `yarn server`
 
-Ejecuta la api de envíos en Json server
+Ejecuta la api de envíos en Json server.
 Abrir [http://localhost:3001](http://localhost:3001)
 
 ### `yarn start`
 
-en el .zip adjunto estan los archivos para la api de usuarios, esta api es obligatorio ejecutarla para el correcto funcionamiento de la app
+En el .zip adjunto están los archivos para la api de usuarios. Es obligatorio ejecutarla para el correcto funcionamiento de la app.
 Abrir: [http://localhost:3002](http://localhost:3002)
