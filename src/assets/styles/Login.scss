@@ -1,0 +1,13 @@
+@import "./Vars.scss";
+
+.content {
+    background-color: $background;
+    min-height: calc(100vh - 290px);
+    padding: 50px;
+    padding-top: 60px;
+}
+
+.contentLogin {
+    max-width: 1280px;
+    margin: 0 auto;
+}

@@ -1,0 +1,22 @@
+$colorOne: #E30613;
+$colorTwo: #26294A;
+$white: #ffffff;
+$background: #f9f9f9;
+
+
+.button {
+    font-size: 18px;
+    font-weight: 500;
+    margin: 30px 0;
+    padding: 10px 0;
+    background-color: $colorOne;
+    border: 1px solid $colorOne;
+    border-radius: 10px;
+    transition: all .4s ease-in;
+}
+
+.button:hover {
+    background-color: transparent;
+    border: 1px solid $colorOne;
+    color: $colorOne;
+}
