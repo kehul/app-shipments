@@ -1,4 +1,4 @@
-# Getting Started with Create React App
+# Shipping management app
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
@@ -13,6 +13,11 @@ Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
 
 The page will reload if you make edits.\
 You will also see any lint errors in the console.
+
+### `yarn server`
+
+Runs the api in the json server.\
+Open [http://localhost:3001](http://localhost:3001) to view it in the browser.
 
 ### `yarn test`
 
@@ -39,32 +44,19 @@ Instead, it will copy all the configuration files and the transitive dependencie
 
 You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
 
-## Learn More
+##Instruciones para utilizar correctamente el proyecto
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+### `yarn start`
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+Ejecuta la aplicación
+Abrir: [http://localhost:3000](http://localhost:3000)
 
-### Code Splitting
+### `yarn server`
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+Ejecuta la api de envíos en Json server
+Abrir [http://localhost:3001](http://localhost:3001)
 
-### Analyzing the Bundle Size
+### `yarn start`
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `yarn build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+en el .zip adjunto estan los archivos para la api de usuarios, esta api es obligatorio ejecutarla para el correcto funcionamiento de la app
+Abrir: [http://localhost:3002](http://localhost:3002)
